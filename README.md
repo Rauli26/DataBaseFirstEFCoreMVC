@@ -21,6 +21,7 @@ This SQL code defines a table named "Students" with columns for StudentID, First
 
 Now, let's insert some sample data into the table:
 
+```
 INSERT INTO Students (StudentID, FirstName, LastName, Gender, DateOfBirth, Major, GPA)
 VALUES
     (1, 'John', 'Doe', 'Male', '1995-02-15', 'Computer Science', 3.5),
@@ -28,6 +29,7 @@ VALUES
     (3, 'Alice', 'Johnson', 'Female', '1997-11-10', 'History', 3.8),
     (4, 'Bob', 'Brown', 'Male', '1996-05-03', 'Mathematics', 3.9),
     (5, 'Emily', 'Davis', 'Female', '1999-03-25', 'Psychology', 3.4);
+```
 This SQL code inserts five sample student records into the "Students" table. Each record includes a unique StudentID, FirstName, LastName, Gender, DateOfBirth, Major, and GPA.
 
 Create Employee table and insert sample data
@@ -47,6 +49,7 @@ This SQL code defines a table named "Employee" with columns for EmployeeID, Firs
 
 Now, let's insert some sample data into the table:
 
+```
 INSERT INTO Employee (EmployeeID, FirstName, LastName, Email, HireDate, Department, Salary)
 VALUES
     (1, 'John', 'Doe', 'john.doe@example.com', '2020-01-15', 'IT', 60000.00),
@@ -54,6 +57,7 @@ VALUES
     (3, 'Alice', 'Johnson', 'alice.johnson@example.com', '2021-03-10', 'Finance', 65000.00),
     (4, 'Bob', 'Brown', 'bob.brown@example.com', '2018-09-03', 'Marketing', 58000.00),
     (5, 'Emily', 'Davis', 'emily.davis@example.com', '2022-02-25', 'IT', 62000.00);
+```
 This SQL code inserts five sample employee records into the "Employee" table. Each record includes a unique EmployeeID, FirstName, LastName, Email, HireDate, Department, and Salary.
 
 Step 2. Clone the repository
