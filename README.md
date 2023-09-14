@@ -62,8 +62,14 @@ This SQL code inserts five sample employee records into the "Employee" table. Ea
 
 Step 2. Clone the repository
 
-Step 3. Execute below command for Scaffold DbContext
+
+Step 3. Install 3 packages in ASP.NET Core MVC application
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.EntityFrameworkCore.Design
+
+Step 4. Execute below command for Scaffold DbContext
 
 Scaffold-DbContext ""Name=ConnectionStrings:DataBaseConnectionString";" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
-Step 4. build and run the project
+Step 5. build and run the project
